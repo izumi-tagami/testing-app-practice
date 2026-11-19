@@ -1,0 +1,20 @@
+# testing-app-practice
+
+## 概要
+COACHTECH 教材 Tutorial 10-5「テスト ハンズオン演習」で作成した成果物です。
+ユーザー登録が行えるかとメールアドレス重複登録でエラー表示になるかのテスト実行。
+
+## 使用技術
+- PHP 8.x
+- Laravel 10.x
+- PHPUnit（テスト）
+- Eloquent / Factory
+（**他に使ったものがあれば追記してください**）
+
+## 学んだこと
+- テストファイルの生成と実行。
+- RefreshDatabaseでテスト1とテスト2のデータが干渉しないようリセット。
+- アサーションの記述方法
+
+## 動作確認
+sail artisan testを実行し、PASSになれば成功。
